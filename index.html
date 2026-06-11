@@ -1,26 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Media Type</title>
+    <title>github webpage</title>
 
-<style>
-@media screen {
-    body {
-        background-color: red;
-    }
-}
+    <style>
+        @font-face {
+            font-family: 'HsGlidingSerif';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2604-1@1.0/HSHwalkongSerif-Regular.woff2') format('woff2');
+            font-weight: normal;
+            font-display: swap;
+        }
 
-@media print {
-    body {
-        background-color: green;
-    }
-}
-</style>
+        @media screen {
+            body { background-color: rgb(255, 255, 255); }
+        }
+
+        @media print {
+            body { background-color: rgb(255, 255, 255); }
+        }
+
+        body {
+            font-family: 'HsGlidingSerif';
+            text-align:center;
+        }
+
+        .card{
+            width:200px;
+            margin: 50px auto;
+            padding: 60px;
+            background:#eafbbc;
+        }
+
+        .author{
+            text-align:right;
+        }
+
+    </style>
 
 </head>
-
 <body>
+<div class="card">
     <h1>시</h1>
-    <p>그냥 줍는 것이다</p>
+    <p class="author">- 나태주</p>
+    <p>
+        <br>
+        그냥 줍는 것이다<br>
+        <br>
+        길거리나 사람들 사이에<br>
+        버려진 채 빛나는<br>
+        마음의 보석들<br>
+    </p>
+
+</div>
 </body>
 </html>
